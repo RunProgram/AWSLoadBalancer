@@ -19,7 +19,7 @@ If, for example, you have a lot of web traffic on one target, a load balancer sp
 </br>
 
 <p align="center">
-<img src="/img/age-01.png" width="80%" height="80%">
+<img src="/img/diagram.png" width="80%" height="80%">
 </p>
 
 </br>
@@ -31,7 +31,3 @@ If, for example, you have a lot of web traffic on one target, a load balancer sp
 - **Elastic Load Balancer (ELB)**: The elastic load balancer is configured across two Availability Zones (AZ) for redundancy. It automatically sends traffic to the correct EC2 instance based on how much traffic it is receiving and processing.
 - **Route53 DNS Routing**: Using a custom domain name, the web adress is routed via Route53's provided DNS server. Configured with NS.
 
-
-<h2><img height="30" src="/img/documentation.svg">&nbsp;&nbsp;Documentation</h2>
-
-Refer to our latest [Apache AGE documentation](https://age.apache.org/age-manual/master/index.html) to learn about installation, features, built-in functions, and  Cypher queries.
