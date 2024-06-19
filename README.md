@@ -25,7 +25,7 @@ If, for example, you have a lot of web traffic on one target, a load balancer sp
 </br>
 
 
-<h2><img height="30" src="/img/tick.svg">&nbsp;&nbsp;Overview</h2>
+<h2>Overview</h2>
 
 - **3 EC2 Compute Machines**: The ELB works with 3 EC2 instances, each running a simple "Hello World" HTML page.
 - **Elastic Load Balancer (ELB)**: The elastic load balancer is configured across two Availability Zones (AZ) for redundancy. It automatically sends traffic to the correct EC2 instance based on how much traffic it is receiving and processing.
