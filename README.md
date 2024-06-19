@@ -19,7 +19,7 @@ If, for example, you have a lot of web traffic on one target, a load balancer sp
 </br>
 
 <p align="center">
-<img src="/img/diagram.png" width="80%" height="80%">
+<img src="/diagram.png" width="80%" height="80%">
 </p>
 
 </br>
